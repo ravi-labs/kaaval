@@ -1,0 +1,19 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "kaaval"
+version = "0.0.1"
+description = "Kaaval (காவல்): chain of custody for AI agent actions. Placeholder, under active development."
+readme = "README.md"
+requires-python = ">=3.10"
+license = "Apache-2.0"
+authors = [{ name = "Ravichandran Kanakasikamani" }]
+classifiers = ["Development Status :: 1 - Planning"]
+
+[project.urls]
+Homepage = "https://github.com/ravi-labs/kaaval"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/kaaval"]
